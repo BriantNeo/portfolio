@@ -19,6 +19,13 @@
       text-align:center; font-size:2.5rem; font-weight:600; color:#111827;
       margin-bottom:10px; letter-spacing:0.3px;
     }
+    .intro {
+      text-align:center;
+      font-size:1.05rem;
+      color:#4b5563;
+      margin-top:4px;
+      margin-bottom:30px;
+    }
     .links-bar {
       display:flex; justify-content:center; align-items:center; gap:10px;
       font-size:1.1rem; margin-bottom:40px;
@@ -47,6 +54,13 @@
       max-height:0; overflow:hidden; border-left:1px solid var(--divider); margin-left:10px;
       padding-left:16px; transition:max-height .35s ease, opacity .35s ease;
       opacity:0; color:#475569; font-size:1.05rem; line-height:1.7; margin-bottom:10px;
+    }
+    .dropdown-content p {
+      margin: 0 0 8px 0;
+    }
+    .dropdown-content ul {
+      margin: 0 0 0 1.2rem;
+      padding-left: 0;
     }
     .title.open + .dropdown-content { max-height:400px; opacity:1; }
     .dropdown-content a {
@@ -96,7 +110,8 @@
 
   <!-- Main Content -->
   <div class="main-container" id="content">
-    <h1>Briant Neo | Portfolio</h1>
+    <h1>Briant Neo | Investment Banking & Valuation Models Portfolio</h1>
+    <p class="intro">Focused on financial modelling, valuation, and transaction-style analysis. All projects here are self-built to mirror investment banking analyst work.</p>
     
     <div class="links-bar">
       <a href="https://www.linkedin.com/in/briantneoyx/" target="_blank">LinkedIn</a>
@@ -111,32 +126,42 @@
     <div class="section">
       <div class="title">3-Statement Model: Old Chang Kee Ltd. <span class="arrow">›</span></div>
       <div class="dropdown-content">
+        <p>
+          Fully linked 3-statement model for Old Chang Kee Ltd. (SGX: 5ML), built using FY2022–2024 financials.
+          Includes integrated income statement, balance sheet, cash flow statement, and key supporting schedules.
+        </p>
         <ul>
-          <li><a href="OCK 3-Statement Model Analysis &amp; Forecast.pdf" download target="_blank">Old Chang Kee Analysis &amp; Forecast Report (PDF)</a></li>
+          <li><a href="OCK 3-Statement Model Analy...rt (PDF)</a></li>
           <li><a href="OldChangKee_3statement.xlsx" download>Old Chang Kee 3-Statement Model (Excel)</a></li>
-          <li><a href="fs 2022 ock.pdf" download target="_blank">OCK 2022 Financial Statements (PDF)</a></li>
-          <li><a href="fs 2023 ock.pdf" download target="_blank">OCK 2023 Financial Statements (PDF)</a></li>
-          <li><a href="fs 2024 ock.pdf" download target="_blank">OCK 2024 Financial Statements (PDF)</a></li>
+          <li><a href="fs 2022 ock.pdf" target="_blank">OCK 2022 Financial Statements (PDF)</a></li>
+          <li><a href="fs 2023 ock.pdf" target="_blank">OCK 2023 Financial Statements (PDF)</a></li>
+          <li><a href="fs 2024 ock.pdf" target="_blank">OCK 2024 Financial Statements (PDF)</a></li>
         </ul>
       </div>
-    </div>
 
     <div class="section">
       <div class="title">DCF Valuation: Sheng Shiong Group Ltd<span class="arrow">›</span></div>
       <div class="dropdown-content">
-	    <ul>
-		  <li><a href="Sheng Shiong DCF.pdf" download target="_blank">Sheng Shiong Group DCF Summary Report (PDF)</a></li>
-		  <li><a href="Sheng Shiong DCF.xlxs" download target="_blank">Sheng Shiong Group DCF Valuation (Excel)</a></li>
-          <li><a href="fs 2022 ssg.pdf" download target="_blank">SSG 2022 Financial Statements (PDF)</a></li>
-          <li><a href="fs 2023 ssg.pdf" download target="_blank">SSG 2023 Financial Statements (PDF)</a></li>
-          <li><a href="fs 2024 ssg.pdf" download target="_blank">SSG 2024 Financial Statements (PDF)</a></li>
-		</ul>
+        <p>
+          DCF valuation of Sheng Shiong Group Ltd. (SGX: OV8) using FY2022–2024 financials, with explicit 5-year projections,
+          WACC build-up, and sensitivity analysis on growth and discount rate.
+        </p>
+        <ul>
+          <li><a href="Sheng Shiong DCF.pdf" target="_blank">Sheng Shiong Group DCF Summary Report (PDF)</a></li>
+          <li><a href="Sheng Shiong DCF.xlsx" download>Sheng Shiong Group DCF Valuation (Excel)</a></li>
+          <li><a href="fs 2022 ssg.pdf" target="_blank">SSG 2022 Financial Statements (PDF)</a></li>
+          <li><a href="fs 2023 ssg.pdf" target="_blank">SSG 2023 Financial Statements (PDF)</a></li>
+          <li><a href="fs 2024 ssg.pdf" target="_blank">SSG 2024 Financial Statements (PDF)</a></li>
+        </ul>
       </div>
-    </div>
 
     <div class="section">
-      <div class="title">Other Excel Models (CCA, DCF, 3SM, M&A, LBO) <span class="arrow">›</span></div>
+      <div class="title">Standalone Modelling Exercises (CCA, DCF, 3SM, M&A, LBO) <span class="arrow">›</span></div>
       <div class="dropdown-content">
+        <p>
+          A collection of additional practice models across DCF, 3-statement, comparable company analysis,
+          M&A, and LBO structures. These exercises are focused on skill development and can be shared in full upon request.
+        </p>
       </div>
     </div>
 
